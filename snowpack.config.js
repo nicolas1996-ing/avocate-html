@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://nicolas1996-ing.github.io//avocate-html',
+    baseUrl: 'https://nicolas1996-ing.github.io/avocate-html',
   },
 }
