@@ -80,3 +80,16 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+
+## initial config 
+# Bootstrap the template into a new folder called `my-app`
+npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
+
+# Enable Prettier on git-commit
+cd my-app
+yarn install:husky
+
+# Start the development server
+yarn start
+
+https://github.com/jonalvarezz/snowpack-template-tailwind
